@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.CBRCount.tests.positive.Get_By_Partner_MaxCharAddress"/>
+      <class name="com.CBRCount.tests.positive.Get_By_Owner_UserID"/>
+      <class name="com.CBRCount.tests.negative.Get_By_Valid_Owner_Invalid_PartnerAdd"/>
+      <class name="com.CBRCount.tests.negative.Get_By_Invalid_Partner_UserID"/>
+      <class name="com.CBRCount.tests.positive.Get_By_Partner_Address"/>
+      <class name="com.CBRCount.tests.negative.Get_By_Invalid_PartnerAddress"/>
+      <class name="com.CBRCount.tests.negative.Get_By_OwnerAdress_SpecialCharacters"/>
+      <class name="com.CBRCount.tests.negative.Get_By_Valid_OwnerAndPartnerID_Invalid_OwnerAddress"/>
+      <class name="com.CBRCount.tests.positive.Get_By_Partner_UserID"/>
+      <class name="com.CBRCount.tests.negative.Get_By_Invalid_Owner_UserId"/>
+      <class name="com.CBRCount.tests.negative.Get_By_Direction_InvalidName"/>
+      <class name="com.CBRCount.tests.positive.Get_By_OwnerAddress"/>
+      <class name="com.CBRCount.tests.negative.Get_By_Invalid_OwnerAndPartnerAddress"/>
+      <class name="com.CBRCount.tests.negative.Get_By_Invalid_OwnerAddress"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

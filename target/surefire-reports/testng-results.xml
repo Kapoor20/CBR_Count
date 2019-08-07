@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="13" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20721" started-at="2019-04-01T09:33:41Z" finished-at="2019-04-01T09:34:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20721" started-at="2019-04-01T09:33:41Z" finished-at="2019-04-01T09:34:02Z">
+      <class name="com.CBRCount.tests.positive.Get_By_Owner_UserID">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Owner_UserID@783e6358]" name="setup" is-config="true" duration-ms="1" started-at="2019-04-01T15:03:47Z" finished-at="2019-04-01T15:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="get_CBRCount()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Owner_UserID@783e6358]" name="get_CBRCount" duration-ms="3566" started-at="2019-04-01T15:03:47Z" finished-at="2019-04-01T15:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_CBRCount -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.CBRCount.tests.positive.Get_By_Owner_UserID@783e6358]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-01T15:03:51Z" finished-at="2019-04-01T15:03:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_CBRCount status=SUCCESS method=Get_By_Owner_UserID.get_CBRCount()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Owner_UserID@783e6358] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.CBRCount.tests.positive.Get_By_Owner_UserID -->
+      <class name="com.CBRCount.tests.positive.Get_By_OwnerAddress">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CBRCount.tests.positive.Get_By_OwnerAddress@180bc464]" name="setup" is-config="true" duration-ms="1" started-at="2019-04-01T15:03:58Z" finished-at="2019-04-01T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="get_CBRCount1()[pri:0, instance:com.CBRCount.tests.positive.Get_By_OwnerAddress@180bc464]" name="get_CBRCount1" duration-ms="3695" started-at="2019-04-01T15:03:58Z" finished-at="2019-04-01T15:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_CBRCount1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.CBRCount.tests.positive.Get_By_OwnerAddress@180bc464]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-01T15:04:02Z" finished-at="2019-04-01T15:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_CBRCount1 status=SUCCESS method=Get_By_OwnerAddress.get_CBRCount1()[pri:0, instance:com.CBRCount.tests.positive.Get_By_OwnerAddress@180bc464] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.CBRCount.tests.positive.Get_By_OwnerAddress -->
+      <class name="com.CBRCount.tests.positive.Get_By_Partner_Address">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_Address@17550481]" name="setup" is-config="true" duration-ms="2" started-at="2019-04-01T15:03:51Z" finished-at="2019-04-01T15:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="get_CBRCount()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_Address@17550481]" name="get_CBRCount" duration-ms="3704" started-at="2019-04-01T15:03:51Z" finished-at="2019-04-01T15:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_CBRCount -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_Address@17550481]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-01T15:03:55Z" finished-at="2019-04-01T15:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_CBRCount status=SUCCESS method=Get_By_Partner_Address.get_CBRCount()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_Address@17550481] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.CBRCount.tests.positive.Get_By_Partner_Address -->
+      <class name="com.CBRCount.tests.positive.Get_By_Partner_MaxCharAddress">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_MaxCharAddress@13fee20c]" name="setUp" is-config="true" duration-ms="181" started-at="2019-04-01T15:03:41Z" finished-at="2019-04-01T15:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.CBRCount.TestBase.TestBase1@4e04a765]" name="setUp" is-config="true" duration-ms="3" started-at="2019-04-01T15:03:41Z" finished-at="2019-04-01T15:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_MaxCharAddress@13fee20c]" name="setup" is-config="true" duration-ms="2" started-at="2019-04-01T15:03:41Z" finished-at="2019-04-01T15:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="get_CBRCount()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_MaxCharAddress@13fee20c]" name="get_CBRCount" duration-ms="6152" started-at="2019-04-01T15:03:41Z" finished-at="2019-04-01T15:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_CBRCount -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_MaxCharAddress@13fee20c]" name="getResult" is-config="true" duration-ms="2" started-at="2019-04-01T15:03:47Z" finished-at="2019-04-01T15:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_CBRCount status=SUCCESS method=Get_By_Partner_MaxCharAddress.get_CBRCount()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_MaxCharAddress@13fee20c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_MaxCharAddress@13fee20c]" name="endTest" is-config="true" duration-ms="252" started-at="2019-04-01T15:04:02Z" finished-at="2019-04-01T15:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.CBRCount.TestBase.TestBase1@4e04a765]" name="endTest" is-config="true" duration-ms="41" started-at="2019-04-01T15:04:02Z" finished-at="2019-04-01T15:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.CBRCount.tests.positive.Get_By_Partner_MaxCharAddress -->
+      <class name="com.CBRCount.tests.positive.Get_By_Partner_UserID">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_UserID@735f7ae5]" name="setup" is-config="true" duration-ms="1" started-at="2019-04-01T15:03:55Z" finished-at="2019-04-01T15:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="get_CBRCount()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_UserID@735f7ae5]" name="get_CBRCount" duration-ms="3570" started-at="2019-04-01T15:03:55Z" finished-at="2019-04-01T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_CBRCount -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_UserID@735f7ae5]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-01T15:03:58Z" finished-at="2019-04-01T15:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_CBRCount status=SUCCESS method=Get_By_Partner_UserID.get_CBRCount()[pri:0, instance:com.CBRCount.tests.positive.Get_By_Partner_UserID@735f7ae5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.CBRCount.tests.positive.Get_By_Partner_UserID -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
